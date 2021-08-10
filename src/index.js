@@ -61,7 +61,6 @@ function onDragStart(e) {
 }
 
 function onDrag(e) {
-  console.log("hey");
   const transformX = e.clientX - start[0] - cursorOffset[0];
   const transformY = e.clientY - start[1] - cursorOffset[1];
   const startOffset = start[0]; // both x + y position start in at same dist
