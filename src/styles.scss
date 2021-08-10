@@ -1,0 +1,56 @@
+body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  user-select: none; // To prevent Safari issues with custom triggering text cursor
+  font-family: sans-serif;
+  background: #1b1b27;
+  background-position: bottom left;
+  background-repeat: repeat;
+  background-size: 10vh 10vh;
+  background-image: linear-gradient(
+      0deg,
+      #181824,
+      #181824 2px,
+      transparent 2px,
+      transparent,
+      transparent calc(10vh - 2px),
+      #181824 calc(10vh - 2px),
+      #181824 10vh
+    ),
+    linear-gradient(
+      270deg,
+      #181824,
+      #181824 2px,
+      transparent 2px,
+      transparent,
+      transparent calc(10vh - 2px),
+      #181824 calc(10vh - 2px),
+      #181824 10vh
+    );
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+}
+#ball {
+  cursor: grab;
+  border-radius: 100%;
+  background: #cd0e66;
+  position: absolute;
+}
+.dragging * {
+  cursor: grabbing !important;
+}
