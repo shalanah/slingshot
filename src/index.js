@@ -1,7 +1,5 @@
 import "./styles.scss";
 
-// If I wasn't building by hand would definitely look into other spring + physics libs to see how they are built and glean patterns from. Below are my first ideas without looking into other libs.
-
 // Future: Add a canvas/svg to paint the path of the ball
 // Future: Add "slingshot" from origin
 // Future: Make values like "k" and gravity based on window size
