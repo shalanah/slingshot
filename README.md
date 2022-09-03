@@ -12,4 +12,4 @@ With only Vanilla Javascript and 4 hours of time create a ball that can be pulle
 TODO
 
 ## Future
-- Would like to use OOP for this to attach different forces like spring + gravity
+Would like to use OOP for this to attach different forces like spring + gravity
