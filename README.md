@@ -1,6 +1,6 @@
 # Slingshot
 
-With only Vanilla Javascript and 4 hours of time create a ball that can be pulled back (like a slingshot) and experiences projectile motion afterwards.
+With only vanilla Javascript and 4 hours of time create a ball that can be pulled back (like a slingshot) and experiences projectile motion afterwards.
 
 ## Features
 - Can create a sling with 0-90 degree trajectory
